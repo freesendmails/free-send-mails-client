@@ -1,0 +1,111 @@
+.header {
+    padding: 30px 0 0;
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+    left: 0;
+    top: 0;
+    transition: all .3s ease;
+}
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+    display: block;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+  .header .header-content-wrapper {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.header .logo {
+    margin-bottom: 0;
+    margin-right: 82px;
+    float: left;
+}
+.logo {
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+  .full-block-link {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+a {
+    text-decoration: none;
+    color: #2f2c2c;
+    transition: all 0.15s linear;
+}
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+  .logo img {
+    float: left;
+    margin-right: 15px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+img {
+    border-style: none;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.logo .logo-text {
+    float: left;
+    margin-top: 10px;
+    line-height: 1;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.logo .logo-text .logo-title {
+    font-size: 27px;
+    text-transform: uppercase;
+    color: #2f2c2c;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.logo .logo-text .logo-sub-title {
+    font-size: 10px;
+    text-transform: uppercase;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
