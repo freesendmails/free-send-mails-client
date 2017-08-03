@@ -1,12 +1,26 @@
-import { ContainerComponent } from './container/container.component';
+import { PagesRoutingModule } from './../pages/pages-routing.module';
+import { ContainerHeaderComponent } from './container-header/container-header.component';
+import { ContainerExampleComponent } from './container-example/container-example.component';
 import { BootstrapModuleModule } from './../bootstrap-module/bootstrap-module.module';
 import { NavbarComponent } from './navbar/navbar.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @NgModule({
-  imports: [CommonModule, BootstrapModuleModule],
-  declarations: [NavbarComponent, ContainerComponent],
-  exports: [NavbarComponent, ContainerComponent]
+  imports: [
+    CommonModule,
+    BootstrapModuleModule,
+    PagesRoutingModule
+  ],
+  declarations: [
+    NavbarComponent,
+    ContainerExampleComponent,
+    ContainerHeaderComponent
+  ],
+  exports: [
+    NavbarComponent,
+    ContainerExampleComponent,
+    ContainerHeaderComponent
+  ]
 })
 export class LayoutModuleModule { }
