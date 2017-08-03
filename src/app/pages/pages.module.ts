@@ -1,3 +1,4 @@
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { TestMailErrorComponent } from './test-mail-error/test-mail-error.component';
 import { TestMailSuccessComponent } from './test-mail-success/test-mail-success.component';
 import { TestMailComponent } from './test-mail/test-mail.component';
@@ -20,7 +21,8 @@ import { FormsModule } from '@angular/forms';
     HomeComponent,
     TestMailComponent,
     TestMailSuccessComponent,
-    TestMailErrorComponent
+    TestMailErrorComponent,
+    PageNotFoundComponent
   ]
 })
 export class PagesModule { }

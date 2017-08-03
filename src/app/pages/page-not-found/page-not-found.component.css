@@ -1,0 +1,107 @@
+.content-page-404 {
+    padding: 230px 0 510px;
+    background: url('/assets/images/404-img.png') 0 100% no-repeat;
+    text-align: center;
+    background-size: contain;
+    background-color: #F7F9F9;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.content-page-404 .title {
+    font-size: 257px;
+    margin-bottom: 15px;
+    line-height: 1;
+}
+h4, .h4 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 400;
+    color: #2f2c2c;
+    font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.content-page-404 .subtitle {
+    font-size: 47px;
+    margin-bottom: 30px;
+    line-height: 1;
+}
+
+.content-page-404 .text {
+    font-size: 28px;
+    margin-bottom: 53px;
+    line-height: 1.3;
+}
+p {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    margin: 0 0 .75em;
+    line-height: 26px;
+    font-size: 18px;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.content-page-404 .btn {
+    font-size: 32px;
+    text-transform: uppercase;
+}
+.btn--primary {
+    background-color: #4cc2c0;
+}
+.btn-small {
+    padding: 15px 35px;
+    text-transform: none;
+    font-size: 16px;
+}
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    padding: 25px 50px;
+    font-size: 15px;
+    line-height: 1;
+    text-transform: uppercase;
+    font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #fff;
+    border-radius: 50px;
+    position: relative;
+    transition: all .3s ease;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: #2f2c2c;
+    transition: all 0.15s linear;
+}
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.content-page-404 .text {
+    font-size: 28px;
+    margin-bottom: 53px;
+    line-height: 1.3;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
