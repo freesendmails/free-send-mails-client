@@ -1,3 +1,4 @@
+import { TestMailErrorComponent } from './test-mail-error/test-mail-error.component';
 import { TestMailSuccessComponent } from './test-mail-success/test-mail-success.component';
 import { TestMailComponent } from './test-mail/test-mail.component';
 import { LayoutModuleModule } from './../layout/layout-module.module';
@@ -18,7 +19,8 @@ import { FormsModule } from '@angular/forms';
   declarations: [
     HomeComponent,
     TestMailComponent,
-    TestMailSuccessComponent
+    TestMailSuccessComponent,
+    TestMailErrorComponent
   ]
 })
 export class PagesModule { }
