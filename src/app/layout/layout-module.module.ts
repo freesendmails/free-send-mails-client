@@ -1,3 +1,5 @@
+import { FooterComponent } from './footer/footer.component';
+import { ContainerDocumentationComponent } from './container-documentation/container-documentation.component';
 import { PagesRoutingModule } from './../pages/pages-routing.module';
 import { ContainerHeaderComponent } from './container-header/container-header.component';
 import { ContainerExampleComponent } from './container-example/container-example.component';
@@ -15,12 +17,16 @@ import { CommonModule } from '@angular/common';
   declarations: [
     NavbarComponent,
     ContainerExampleComponent,
-    ContainerHeaderComponent
+    ContainerHeaderComponent,
+    ContainerDocumentationComponent,
+    FooterComponent
   ],
   exports: [
     NavbarComponent,
     ContainerExampleComponent,
-    ContainerHeaderComponent
+    ContainerHeaderComponent,
+    ContainerDocumentationComponent,
+    FooterComponent
   ]
 })
 export class LayoutModuleModule { }
