@@ -167,3 +167,8 @@ img {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+@media (max-width: 570px) {
+  .image-mobile {
+    display: none;
+  }
+}
