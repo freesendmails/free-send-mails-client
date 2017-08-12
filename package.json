@@ -5,12 +5,12 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve -H 0.0.0.0",
-    "start": "Server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --aot -prod"
+    "postinstall": "ng build --aot -prod",
+    "start": "Server.js"
   },
   "private": true,
   "dependencies": {
