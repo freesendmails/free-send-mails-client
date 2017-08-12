@@ -61,3 +61,6 @@ a {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+.text-center {
+  text-align: center;
+}
