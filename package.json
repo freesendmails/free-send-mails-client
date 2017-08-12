@@ -5,6 +5,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve -H 0.0.0.0",
+    "start": "Server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
