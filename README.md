@@ -1,28 +1,66 @@
-# FreeSendMailsClient
+# Free Send Mails
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.4.
+`free send mails` This project is focused on making an email server available to static sites. In a simple and low code.
 
-## Development server
+`Example:`
+```html
+<form action="http://www.api.freesendmails.com/v1/mails/youmail" method="POST">
+  <div>
+    <label>Name:</label>
+    <input type="text" name="_name">
+  </div>
+  <div>
+    <label>Email address:</label>
+    <input type="email" name="_email">
+  </div>
+  <div>
+    <label>Message:</label>
+    <input type="text" name="_message">
+  </div>
+  <button type="submit">Submit</button>
+</form>
+```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Demo app
 
-## Code scaffolding
+Below you will be redirected to the direct demo of the site and you will also be able to see the two repositories of application codes.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
+- [Live Demo](http://www.freesendmails.com/test-mail)
+- [Source code - Client](https://github.com/grassiricardo/free-send-mails-client)
+- [Source code - Api](https://github.com/grassiricardo/free-send-mails-api)
 
-## Build
+## Development
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+Familiarize yourself with the code and try to follow the same syntax conventions to make it easier for us to accept your pull requests.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Getting the Code
 
-## Running end-to-end tests
+1. Clone the free-send-mails-client project:
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+  ```shell
+  $ git clone https://github.com/grassiricardo/free-send-mails-client.git
+  $ cd free-send-mails-client
+  ```
 
-## Further help
+### Run the application - (Without Docker)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+1. Install dependencies. We assume that you have already installed `npm` in your system.
+
+  ```shell
+  $ npm install
+  ```
+  
+2. Run the application.
+
+  ```shell
+  $ ng server
+  ```
+
+### Run the application - (With Docker)
+
+1. Install dependencies and run application
+
+  ```shell
+  $ docker-compose up --build
+  ```
