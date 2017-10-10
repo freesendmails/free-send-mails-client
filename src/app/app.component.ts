@@ -14,6 +14,7 @@ export class AppComponent {
         ga('set', 'page', event.urlAfterRedirects);
         ga('send', 'pageview');
       }
+      window.scrollTo(0, 0)
     });
   }
 }
