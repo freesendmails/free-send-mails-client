@@ -1,0 +1,345 @@
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.seo-score {
+  background-color: #fff;
+  padding: 130px 0 200px;
+  position: relative;
+  overflow: hidden;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.seo-score .seo-score-content {
+  z-index: 2;
+  position: relative;
+}
+.align-center {
+  text-align: center;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.heading {
+  position: relative;
+  z-index: 5;
+}
+.align-center {
+text-align: center;
+}
+.seo-score .seo-score-content .heading .heading-title {
+  color: #2f2c2c;
+  margin-bottom: 10px;
+}
+.heading .heading-title {
+  font-weight: 400;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+h1, .h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 400;
+  color: #2f2c2c;
+  font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+h4, .h4 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 400;
+  color: #2f2c2c;
+  font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.seo-score .seo-score-content .heading .heading-text {
+  color: #797676;
+}
+.heading .heading-text {
+  font-size: 24px;
+  line-height: 30px;
+}
+.heading p {
+  margin-bottom: 30px;
+}
+p {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  margin: 0 0 .75em;
+  line-height: 26px;
+  font-size: 18px;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.seo-score .images img:first-of-type {
+  top: -100px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+}
+.seo-score .images img {
+  position: absolute;
+  opacity: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+img {
+  border-style: none;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.seo-score .images img:nth-child(2) {
+  bottom: -100%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+}
+.seo-score .images img {
+  position: absolute;
+  opacity: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+img {
+  border-style: none;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.seo-score .images img:last-of-type {
+  bottom: -100%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+}
+.seo-score .images img {
+  position: absolute;
+  opacity: 0;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+img {
+  border-style: none;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.size-textarea {
+width: 600px;
+}
+
+.right-menu .widget:nth-child(even) {
+  background-color: transparent;
+}
+
+.right-menu .widget {
+  padding: 30px 75px 40px;
+  margin-bottom: 0;
+}
+
+.widget {
+  margin-bottom: 80px;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.right-menu .login input {
+  margin-bottom: 25px;
+}
+
+input.input-standard-grey {
+  border-radius: 50px;
+  background-color: #f7f9f9;
+}
+
+input {
+  padding: 20px 40px;
+  border-color: transparent;
+  transition: all .3s ease;
+  font-size: 16px;
+  color: #acacac;
+  margin-bottom: 30px;
+}
+
+input {
+  -moz-box-shadow: none;
+  box-shadow: none;
+  width: 100%;
+}
+
+button, input {
+  overflow: visible;
+  border: none;
+}
+
+button, input, select, textarea {
+  font: inherit;
+  margin: 0;
+  outline: none;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.right-menu .login .login-btn-wrap {
+  overflow: hidden;
+  padding-bottom: 20px;
+  display: table;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.right-menu .login .login-btn-wrap .btn {
+  float: left;
+  margin-right: 20px;
+}
+
+.btn--dark {
+  background-color: #2f2c2c;
+}
+
+.btn-medium {
+  padding: 23px 31px;
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  padding: 25px 50px;
+  font-size: 15px;
+  line-height: 1;
+  text-transform: uppercase;
+  font-family: "Varela Round", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #fff;
+  border-radius: 50px;
+  position: relative;
+  transition: all .3s ease;
+  text-align: center;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.right-menu .text {
+  margin-bottom: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.semicircle {
+  display: block;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.semicircle:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  border: 2px solid #fff;
+  border-radius: 100%;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.btn-hover-shadow:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  left: 0;
+  top: 0;
+  position: absolute;
+  transition: all .3s ease;
+}
+
+.btn:after {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}

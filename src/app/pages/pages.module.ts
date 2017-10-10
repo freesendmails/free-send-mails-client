@@ -9,6 +9,10 @@ import { HomeComponent } from './home/home.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { AuthenticationUsersComponent } from './authentication-users/authentication-users.component';
+import { AuthenticationUsersSuccessComponent } from './authentication-users-success/authentication-users-success.component';
+import { AuthenticationUsersErrorComponent } from './authentication-users-error/authentication-users-error.component';
+import { AuthenticationUserSuccessAuthenticatedComponent } from './authentication-user-success-authenticated/authentication-user-success-authenticated.component';
 
 @NgModule({
   imports: [
@@ -22,7 +26,11 @@ import { FormsModule } from '@angular/forms';
     TestMailComponent,
     TestMailSuccessComponent,
     TestMailErrorComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    AuthenticationUsersComponent,
+    AuthenticationUsersSuccessComponent,
+    AuthenticationUsersErrorComponent,
+    AuthenticationUserSuccessAuthenticatedComponent
   ]
 })
 export class PagesModule { }

@@ -1,0 +1,41 @@
+<app-navbar></app-navbar>
+<div class="container-fluid">
+  <div class="row">
+    <div class="seo-score scrollme">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-xs-12 col-sm-12">
+            <div class="seo-score-content align-center">
+              <div class="heading align-center">
+                <h4 class="h1 heading-title">Register your email for service use</h4>
+                <br/>
+                <br/>
+                <br/>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-xs-12 col-sm-12">
+            <div class="seo-score-content align-center">
+              <div class="heading align-center">
+                <form class="form-horizontal"  ngNoForm action="http://localhost:3000/v1/authentication/" method="POST">
+                    <div class="widget login">
+                      <input id="form_email" required type="email" class="email input-standard-grey" placeholder="You E-mail" type="text" name="_to">
+                      <br/>
+                      <br/>
+                      <br/>
+                      <div class="form-group">
+                        <button type="submit" class="btn btn-success">Register</button>
+                      </div>
+                    </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>
