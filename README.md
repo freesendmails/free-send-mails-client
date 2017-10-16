@@ -1,5 +1,9 @@
 # Free Send Mails
 
+![angular](https://img.shields.io/badge/Angular-4.0.0-green.svg)
+![angular-cli](https://img.shields.io/badge/Angular-Cli-1.2.4-green.svg)
+[![Build Status](https://travis-ci.org/freesendmails/free-send-mails-client.svg?branch=master)](https://travis-ci.org/freesendmails/free-send-mails-client)
+
 `free send mails` This project is focused on making an email server available to static sites. In a simple and low code.
 
 `Example:`
