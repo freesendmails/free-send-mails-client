@@ -171,3 +171,22 @@ img {
   width: 600px;
 }
 
+input.input-standard-grey, textarea {
+  border-radius: 50px;
+  background-color: #f7f9f9;
+}
+
+input, textarea {
+  padding: 20px 40px;
+  border-color: transparent;
+  transition: all .3s ease;
+  font-size: 16px;
+  color: #acacac;
+  margin-bottom: 30px;
+}
+
+input, textarea{
+  -moz-box-shadow: none;
+  box-shadow: none;
+  width: 100%;
+}
