@@ -19,7 +19,6 @@ article, aside, details, figcaption, figure, footer, header, main, menu, nav, se
   .header .header-content-wrapper {
     position: relative;
     float: left;
-    width: 100%;
 }
 *, *:before, *:after {
     -webkit-box-sizing: border-box;
@@ -107,5 +106,67 @@ img {
 *, *:before, *:after {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.primary-menu-menu {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+}
+.primary-menu, .primary-menu * {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.primary-menu a {
+  -webkit-transition: color .3s linear, background .3s linear;
+  transition: color .3s linear, background .3s linear;
+}
+.primary-menu, .primary-menu * {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #2f2c2c;
+  -webkit-transition: all 0.15s linear;
+  transition: all 0.15s linear;
+}
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.header nav {
+    float: right;
+    padding: 14px 0;
+
+}
+.primary-menu {
+    padding: 14px 30px;
+    float: right;
+}
+.primary-menu, .primary-menu * {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+    display: block;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
